@@ -8,7 +8,7 @@ const __dirname = path.resolve()
 
 const app = express();
 
-app.get('/route', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hello Ahmed dadkii call ka ma qabanayaan maxaan samaynaa');
 });
 
