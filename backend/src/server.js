@@ -9,7 +9,7 @@ const __dirname = path.resolve()
 const app = express();
 
 app.get('/route', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Ahmed dadkii call ka ma qabanayaan maxaan samaynaa');
 });
 
 // deployment ready
