@@ -8,7 +8,7 @@ const __dirname = path.resolve()
 
 const app = express();
 
-app.get('route/', (req, res) => {
+app.get('/route', (req, res) => {
   res.send('Hello World!');
 });
 
@@ -24,6 +24,6 @@ if(ENV.NODE_ENV === "production"){
 
 
 
-app.listen(ENV.PORT, () => {
+app.listen(ENV.PORT, "0.0.0.0", () => {
   console.log('Server is running on port 3000');
 });
