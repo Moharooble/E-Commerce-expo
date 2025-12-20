@@ -8,7 +8,7 @@ const __dirname = path.resolve()
 
 const app = express();
 
-app.get('route/', (req, res) => {
+app.get('/route', (req, res) => {
   res.send('Hello World!');
 });
 
